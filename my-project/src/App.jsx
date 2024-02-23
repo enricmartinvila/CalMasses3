@@ -7,7 +7,6 @@ import MainPage from './Pages/MainPage'
 import Descripcion from './Pages/Descripcion'
 import Espacios from './Pages/Espacios'
 import Contacto from './Pages/Contacto'
-import MenuLateral from './Components/MenuLateral'
 import Header from './Pages/Header'
 import { I18nProvider } from "./Components/i18nContext";
 
@@ -22,7 +21,6 @@ function App() {
         <Descripcion/>
         <Espacios/>
         <Contacto/>
-        <MenuLateral/>
     </I18nProvider>
 
     </>
