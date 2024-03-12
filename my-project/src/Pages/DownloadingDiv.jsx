@@ -40,16 +40,15 @@ export default function DownloadingDiv() {
           <option value="es">Català</option>
           <option value="cat">Español</option>
         </select>
-        <button>
-        <PDFDownloadLink
-            document={<EngPDF name={name} checkInDate={checkInDate} checkOutDate={checkOutDate} />}
-            fileName="CalMassesFile.pdf"
-          >
-            {({ blob, url, loading, error }) =>
-              loading ? 'Loading document...' : 'Download now!'
-            }
+        <button className='h-10 w-36 bg-[#556B2F] text-white font-bold rounded-md'>
+            <PDFDownloadLink
+                document={<EngPDF name={name} checkInDate={checkInDate} checkOutDate={checkOutDate} />}
+                fileName="CalMassesFile.pdf"
+            >
+                {({ blob, url, loading, error }) =>
+                loading ? 'Loading document...' : 'Download now!'
+                }
           </PDFDownloadLink>
-
         </button>
         {/* <PDFViewer width="100%" height="600px">
             <engPDF name={name ? name : ""} checkInDate={checkInDate ? checkInDate : ""} checkOutDate={checkOutDate ? checkOutDate : ""} />
