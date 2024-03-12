@@ -7,7 +7,7 @@ import traduccionesEs from "../languaguesFiles/es.json";
 const i18nContext = createContext();
 
 export const I18nProvider = ({ children }) => {
-  const [currLang, setCurrLang] = useState("es");
+  const [currLang, setCurrLang] = useState("cat");
   const [translations, setTranslations] = useState(traduccionesEs);
 
   const handleSelectLanguage = (newLanguage) => {
