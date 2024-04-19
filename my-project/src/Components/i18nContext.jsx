@@ -8,7 +8,7 @@ const i18nContext = createContext();
 
 export const I18nProvider = ({ children }) => {
   const [currLang, setCurrLang] = useState("cat");
-  const [translations, setTranslations] = useState(traduccionesEs);
+  const [translations, setTranslations] = useState(traduccionesCat);
 
   const handleSelectLanguage = (newLanguage) => {
     setCurrLang(newLanguage);

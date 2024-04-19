@@ -7,7 +7,7 @@ export default function Cards({ title, description, type }) {
     let imgArray = [];
     switch (type) {
         case "caseta":
-            imgArray = ["/fotosTargetes/fotosCaseta/SliderHab1.jpg","/fotosTargetes/fotosCaseta/SliderHab3.jpg", "/fotosTargetes/fotosCaseta/SliderLav2.jpg", "/fotosTargetes/fotosCaseta/SliderMen2.jpg", "/fotosTargetes/fotosCaseta/SliderMen4.jpg" ];
+            imgArray = ["/fotosTargetes/fotosCaseta/SliderHab1.jpg","/fotosTargetes/fotosCaseta/SliderHab3.jpg", "/fotosTargetes/fotosCaseta/SliderLav3.jpg", "/fotosTargetes/fotosCaseta/SliderMen2.jpg", "/fotosTargetes/fotosCaseta/SliderMen4.jpg" ];
             break;
         case "exterior":
             imgArray = ["/fotosTargetes/fotosExterior/SliderExterior1.jpg", "/fotosTargetes/fotosExterior/SliderExterior2.jpg", "/fotosTargetes/fotosExterior/SliderExterior3.jpg", "/fotosTargetes/fotosExterior/SliderExterior4.jpg", "/fotosTargetes/fotosExterior/SliderExterior5.jpg", "/fotosTargetes/fotosExterior/SliderExterior6.jpg", "/fotosTargetes/fotosExterior/SliderExterior7.jpg", "/fotosTargetes/fotosExterior/SliderExterior8.jpg", "/fotosTargetes/fotosExterior/SliderExterior9.jpg", "/fotosTargetes/fotosExterior/SliderBbq1.jpg", "/fotosTargetes/fotosExterior/SliderBbq2.jpg"   ];
@@ -25,7 +25,7 @@ export default function Cards({ title, description, type }) {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imgArray.length);
-        }, 5000);
+        }, 4000);
         return () => clearInterval(intervalId);
     }, [imgArray]);
 

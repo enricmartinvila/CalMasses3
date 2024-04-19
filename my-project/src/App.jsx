@@ -22,7 +22,7 @@ function App() {
         <Descripcion/>
         <Espacios/>
         <Contacto/>
-        <DownloadingDiv />
+        {/* <DownloadingDiv /> */}
     </I18nProvider>
 
     </>

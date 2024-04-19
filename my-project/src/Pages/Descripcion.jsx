@@ -10,8 +10,8 @@ export default function Descripcion() {
                 <h1 className="text-4xl font-bold mb-24">{translations.titles.aboutus}</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center m-20">
                     <div className="md:order-2 text-left">
-                        <p className="text-3xl font-bold mb-3 items-start text-center my-auto">
-                            SALUT, ALIMENTACIÓ, TERRITORI I EMOCIONS.
+                        <p className="text-3xl font-bold mb-24 items-start text-center my-auto">
+                            {translations.aboutustexts.titleinside}	
                         </p>
                         <p className="text-xl mx-4 mb-6">{translations.aboutustexts.firstText}</p>
                         <p className="text-xl mx-4 mb-6">{translations.aboutustexts.secondText}</p>

@@ -17,7 +17,7 @@ export default function Espacios() {
         <>
             <div id='espaciosID' className="text-center mx-auto">
                 <h1 className="text-4xl font-bold my-24">{translations.titles.spaces}</h1>
-                <div className='grid m-8 gap-4 grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+                <div className='grid m-8 gap-4 grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
                     {espaciosData.map((espacio, index) => (
                         <div key={index} className="flex justify-center">
                             <Cards

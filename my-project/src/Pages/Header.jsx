@@ -14,46 +14,47 @@ export default function Header() {
   };
 
     return (
-            <header className=" bg-white text-black py-4 flex items-center justify-between shadow-md">
+            <header className="w-full bg-white text-black py-4 flex items-center justify-between shadow-md fixed top-0 z-10" >
               {/* Logo a la izquierda */}
               <div className="flex items-center ml-5">
                 {/* <img src="/path/to/your/logo.png" alt="Logo" className="w-8 h-8 mr-5" /> */}
-                <span className="text-3xl font-bold">Cal Masses</span>
+                {/* <span className="text-3xl font-bold">Cal Masses</span> */}
+                <img src={'/fotosTargetes/fotosCaseta/logo.avif'} alt="Logo" className="h-12 w-18" />
               </div>
               <div>
                 <ul className="flex gap-2 font-bold text-[#556B2F] text-xl">
                   <li>
-                      <a href="">{translations.menu.main}</a>                   
+                      <a href="#main">{translations.menu.main}</a>                   
                   </li>
                   <li>
                     /
                   </li>
                   <li>
-                      <a href="">{translations.menu.aboutus}</a>                   
+                      <a href="#descripcionID">{translations.menu.aboutus}</a>                   
                   </li>
                   <li>
                     /
                   </li>
                   <li>
-                      <a href="espaciosID">{translations.menu.spaces}</a>                   
+                      <a href="#espaciosID">{translations.menu.spaces}</a>                   
                   </li>
                   <li>
                     /
                   </li>
                   <li>
-                      <a href="contactoID">{translations.menu.contact}</a>                   
+                      <a href="#contacto">{translations.menu.contact}</a>                   
                   </li>
                 </ul>
               </div>
         
               <div className="flex items-center mr-12">
               <select
-                className="bg-transparent text-[#556B2F] text-md font-bold rounded-lg py-2 border-none cursor-pointer"
+                className="bg-transparent text-[#556B2F] text-md font-bold rounded-lg py-2 border-2 border-[#556B2F] shadow-sm cursor-pointer p-2"
                 onChange={(e) => handleChange(e)}
               >
-                <option value="cat">Catalan</option>
-                <option value="es">Español 🇪🇸</option>
-                <option value="en">English 🇬🇧</option>
+                <option className=" font-semibold hover:bg-[#556b2f]" value="cat">Catalan</option>
+                <option className=" font-semibold" value="es">Español 🇪🇸</option>
+                <option className=" font-semibold" value="en">English 🇬🇧</option>
               </select>
 
               </div>

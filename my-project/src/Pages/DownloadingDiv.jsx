@@ -9,6 +9,8 @@ export default function DownloadingDiv() {
   const [checkInDate, setCheckInDate] = useState('');
   const [checkOutDate, setCheckOutDate] = useState('');
 
+
+
   return (
     <>
       <div className="items-center text-center pt-10">
@@ -40,7 +42,7 @@ export default function DownloadingDiv() {
           <option value="es">Català</option>
           <option value="cat">Español</option>
         </select>
-        <button className='h-10 w-36 bg-[#556B2F] text-white font-bold rounded-md'>
+        {/* <button className='h-10 w-36 bg-[#556B2F] text-white font-bold rounded-md'>
             <PDFDownloadLink
                 document={<EngPDF name={name} checkInDate={checkInDate} checkOutDate={checkOutDate} />}
                 fileName="CalMassesFile.pdf"
@@ -49,10 +51,8 @@ export default function DownloadingDiv() {
                 loading ? 'Loading document...' : 'Download now!'
                 }
           </PDFDownloadLink>
-        </button>
-        {/* <PDFViewer width="100%" height="600px">
-            <engPDF name={name ? name : ""} checkInDate={checkInDate ? checkInDate : ""} checkOutDate={checkOutDate ? checkOutDate : ""} />
-        </PDFViewer> */}
+        </button> */}
+          {/* <EngPDF name={name} checkInDate={checkInDate} checkOutDate={checkOutDate} /> */}
       </div>
     </>
   );
