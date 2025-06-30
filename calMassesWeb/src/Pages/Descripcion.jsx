@@ -7,7 +7,7 @@ export default function Descripcion() {
     <>
       <div id="descripcionID" className="text-center mx-auto px-4">
         <h1 className="text-4xl font-bold mb-24">{translations.titles.aboutus}</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center m-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center m-4 sm:m-20">
           <div className="md:order-2 text-left">
             <p className="text-3xl font-bold mb-24 items-start text-center my-auto">
               {translations.aboutustexts.titleinside}

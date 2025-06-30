@@ -21,7 +21,7 @@ export default function Header() {
         <img
           src="/fotosTargetes/fotosCaseta/logo.webp"
           alt="Logo"
-          className="h-10 w-18 sm:h-12 sm:w-18 scale-150"
+          className={`h-10 w-18 sm:h-12 sm:w-18 scale-150 ${isMenuOpen ? "hidden" : "block"}`}
         />
       </div>
 

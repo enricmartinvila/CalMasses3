@@ -1,4 +1,3 @@
-import Slider from "../Components/Slider";
 import { useI18n } from "../Components/i18nContext";
 
 export default function MainPage() {
@@ -6,7 +5,7 @@ export default function MainPage() {
 
     return (
         <>
-            <div id="main" className="mb-20 relative">
+            <div id="main" className="mb-20 sm:pt-10 relative">
                 <div className="text-center font-bold relative">
                     <div className="w-full relative">
                         <img 
