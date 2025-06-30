@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useI18n } from "../Components/i18nContext";
 
 export default function Header() {
