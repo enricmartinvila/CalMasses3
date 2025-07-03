@@ -18,7 +18,6 @@ export default function Contacte() {
           style={{ width: "80%", height: "500px" }}
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       <div className="flex-color w-full h-44 items-center justify-center text-center p-6">
