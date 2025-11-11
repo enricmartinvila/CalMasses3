@@ -9,7 +9,6 @@ import Espacios from './Pages/Espacios'
 import Contacto from './Pages/Contacto'
 import Header from './Pages/Header'
 import { I18nProvider } from "./Components/i18nContext";
-import DownloadingDiv from './Pages/DownloadingDiv'
 
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
         <Descripcion/>
         <Espacios/>
         <Contacto/>
-        {/* <DownloadingDiv /> */}
     </I18nProvider>
 
     </>
