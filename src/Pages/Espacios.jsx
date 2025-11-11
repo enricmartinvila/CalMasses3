@@ -88,15 +88,13 @@ const SPACES = [
   {
     key: "exterior",
     images: [
+        "/fotosTargetes/fotosCaseta/foraestatua.webp",
+      "/fotosTargetes/fotosCaseta/foravermut.webp",
       "/fotosTargetes/fotosExterior/SliderExterior1.jpg",
       "/fotosTargetes/fotosExterior/SliderExterior2.jpg",
       "/fotosTargetes/fotosExterior/SliderExterior3.jpg",
-      "/fotosTargetes/fotosExterior/SliderExterior4.jpg",
-      "/fotosTargetes/fotosExterior/SliderExterior5.jpg",
       "/fotosTargetes/fotosExterior/SliderExterior6.jpg",
       "/fotosTargetes/fotosExterior/SliderExterior7.jpg",
-      "/fotosTargetes/fotosExterior/SliderExterior8.jpg",
-      "/fotosTargetes/fotosExterior/SliderExterior9.jpg",
       "/fotosTargetes/fotosExterior/SliderBbq1.jpg",
       "/fotosTargetes/fotosExterior/SliderBbq2.jpg",
     ],
@@ -104,11 +102,16 @@ const SPACES = [
   {
     key: "caseta",
     images: [
+      "/fotosTargetes/fotosCaseta/yacuzzi.webp",
       "/fotosTargetes/fotosCaseta/SliderHab1.jpg",
       "/fotosTargetes/fotosCaseta/SliderHab3.jpg",
       "/fotosTargetes/fotosCaseta/SliderLav3.jpg",
       "/fotosTargetes/fotosCaseta/SliderMen2.jpg",
-      "/fotosTargetes/fotosCaseta/SliderMen4.jpg",
+      "/fotosTargetes/fotosCaseta/dins.webp",
+      "/fotosTargetes/fotosCaseta/dinsnousoda.webp",
+      "/fotosTargetes/fotosCaseta/foraestatua.webp",
+      "/fotosTargetes/fotosCaseta/foravermut.webp",
+
     ],
   },
   {
