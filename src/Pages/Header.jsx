@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header className="w-full bg-white text-black py-4 flex items-center shadow-md fixed top-0 z-10">
       {/* Logo */}
-      <div className="flex items-center ml-5">
+      <div className="flex items-center ml-10">
         <img
           src="/fotosTargetes/fotosCaseta/logo.webp"
           alt="Logo"
@@ -76,8 +76,8 @@ export default function Header() {
           onChange={handleChange}
         >
           <option value="cat">Catalan</option>
-          <option value="es">Español 🇪🇸</option>
-          <option value="en">English 🇬🇧</option>
+          <option value="es">Español</option>
+          <option value="en">English</option>
         </select>
 
         {/* Menú hamburguesa */}
