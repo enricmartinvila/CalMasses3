@@ -20,6 +20,11 @@
     },
     "maintexts": {
         "text": "DISFRUTA Y DETÉN EL TIEMPO"
+    },
+    "contacto": {
+        "arrival": "Cómo llegar",
+        "save_contact": "Guardar contacto",
+        "copy_email": "Copiar correo",
+        "copied": "¡Copiado!"
     }
-    
 }

@@ -20,5 +20,11 @@
     },
     "maintexts": {
         "text": "ENJOY AND STOP THE TIME."
+    },
+    "contacto": {
+        "arrival": "How to arrive",
+        "save_contact": "Save contact",
+        "copy_email": "Copy email",
+        "copied": "Copied!"
     }
 }

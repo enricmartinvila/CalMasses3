@@ -20,5 +20,11 @@
     },
     "maintexts": {
         "text": "GAUDEIX I ATURA EL TEMPS"
+    },
+    "contacto": {
+        "arrival": "Com arribar",
+        "save_contact": "Desar contacte",
+        "copy_email": "Copiar correu",
+        "copied": "¡Copiat!"
     }
 }
