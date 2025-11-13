@@ -87,19 +87,19 @@ export default function Contacte() {
 
               <ul className="space-y-4 text-gray-800 text-sm md:text-base">
                 <li className="flex items-start gap-3">
-                  <MapPinIcon className="h-6 w-6" style={{ color: ACCENT }} />
+                  <MapPinIcon className="h-6 w-6" style={{ color: "black" }} />
                   <span>{ADDRESS_TEXT}</span>
                 </li>
 
                 <li className="flex items-center gap-3">
-                  <EnvelopeIcon className="h-6 w-6" style={{ color: ACCENT }} />
+                  <EnvelopeIcon className="h-6 w-6" style={{ color: "black" }} />
                   <a href={`mailto:${EMAIL}`} className="hover:underline">
                     {EMAIL}
                   </a>
                 </li>
 
                 <li className="flex items-center gap-3">
-                  <PhoneIcon className="h-6 w-6" style={{ color: ACCENT }} />
+                  <PhoneIcon className="h-6 w-6" style={{ color: "black" }} />
                   <a href={`tel:${PHONE_E164}`} className="hover:underline">
                     {PHONE_HUMAN}
                   </a>
