@@ -1,30 +1,74 @@
 {
-    "menu": {
-        "main": "Inicio",
-        "aboutus": "Sobre nosotros",
-        "spaces": "Espacios",
-        "contact": "Contacto"
-    },
-    "titles": {
-        "main": "Inicio",
-        "aboutus": "Sobre nosotros",
-        "spaces": "Espacios",
-        "contact": "Contacto"
-    },
-    "aboutustexts": {
-        "titleinside": "Salud, Nutrición, Territorio y Emociones.",
-        "firstText": "Cal Masses es una masía ubicada en Sant Salvador de Guardiola, en la comarca de Bages, junto al parque natural de la Montaña de Montserrat, cerca de Manresa y dentro de la D.O. Pla de Bages.",
-        "secondText": "Desde el año 2014, hemos estado practicando la agricultura ecológica, centrándonos principalmente en el cultivo ecológico de hortalizas con ventas locales. Sin embargo, debido a la sequía de los últimos años, hemos pasado a otros cultivos.",
-        "thirdText": "Durante el año 2023, recuperamos una parte de las viñas que existían anteriormente en la finca.",
-        "fourthText": "Trabajamos y buscamos siempre la manera más sostenible de cultivar la tierra, introduciendo prácticas de agricultura regenerativa."
-    },
-    "maintexts": {
-        "text": "DISFRUTA Y DETÉN EL TIEMPO"
-    },
-    "contacto": {
-        "arrival": "Cómo llegar",
-        "save_contact": "Guardar contacto",
-        "copy_email": "Copiar correo",
-        "copied": "¡Copiado!"
-    }
+  "maintexts": {
+    "badge": "Apartamento rural · QEhome",
+    "title": "Tu refugio rural cerca de Manresa",
+    "text": "Un apartamento tranquilo, rodeado de naturaleza, pensado para desconectar con todas las comodidades.",
+    "cta_primary": "Consultar disponibilidad",
+    "cta_secondary": "Ver espacios",
+
+    "quick1": "Hasta 4 personas",
+    "quick2": "Jacuzzi exterior",
+    "quick3": "Parking gratuito",
+
+    "feature1_title": "Entorno natural",
+    "feature1_text": "Viñas, silencio y cielo estrellado, a pocos minutos en coche de Manresa.",
+    "feature2_title": "Comodidades modernas",
+    "feature2_text": "Wi-Fi, cocina equipada, climatización y todos los detalles para una estancia cómoda.",
+    "feature3_title": "Pensado para desconectar",
+    "feature3_text": "Espacios amplios, luz natural y una decoración sencilla pero cálida."
+  },
+
+  "menu": {
+    "main": "Inicio",
+    "aboutus": "Sobre nosotros",
+    "spaces": "Espacios",
+    "contact": "Contacto",
+    "vinos": "Vinos"
+  },
+
+  "titles": {
+    "contact": "Contacto"
+  },
+
+  "contacto": {
+    "badge": "Contacto y reservas",
+    "intro": "Si tienes cualquier duda sobre tu estancia, disponibilidad o cómo llegar, puedes contactar directamente con nosotros.",
+    "arrival": "Cómo llegar",
+    "save_contact": "Guardar contacto",
+    "copied": "Email copiado",
+    "copy_email": "Copiar email"
+  },
+
+  "vinos": {
+    "badge": "Vinos de la casa",
+    "title": "SISU — El primer vino de Cal Masses",
+    "subtitle": "Un brisat honesto y sin maquillajes, elaborado con Macabeo y Sumoll del Pla de Bages, pensado para compartir en escapadas tranquilas en Cal Masses.",
+    "p1": "Te presentamos SISU, el primer vino de Cal Masses. Elaborado en la vendimia de 2024 con uva de viñas viejas de nuestro pueblo: Macabeo (80%) y Sumoll (20%).",
+    "p2": "Cosechado a mano, despalillado y macerado con sus pieles durante cinco días. Luego prensado y reposado seis meses en depósito de acero inoxidable. Embotellado con el mínimo de sulfitos y sin filtrar, manteniendo su autenticidad.",
+    "p3": "Es un vino que juega entre colores y estilos: un rosado muy especial, casi un “rosado de blancos”. Su color recuerda los atardeceres rojizos del Pla de Bages.",
+    "p4": "En nariz, notas de piel de naranja, fruta blanca madura y un toque floral y herbáceo mediterráneo. En boca es fresco y vibrante, con la acidez del Macabeo y un punto astringente del Sumoll que evoca sabores de otoño.",
+    "p5": "Ideal para disfrutarlo bien fresco con platos ligeros: ensaladas, pastas, arroces, pizzas, quesos tiernos… o simplemente solo o en buena compañía.",
+    "p6": "Es un proyecto pequeño y honesto, que habla de resiliencia, identidad y de nuestro paisaje. Un brisat tradicional del Bages con una mirada actual: mínima intervención, sin maquillajes y priorizando la autenticidad.",
+    "footer": "Raval del Sellarès — Sant Salvador de Guardiola"
+  },
+
+  "aboutustexts": {
+    "badge": "Sobre el apartamento",
+    "titleinside": "Un apartamento rural cuidado al detalle",
+    "intro": "Un espacio pensado para que te sientas como en casa: sencillo, cálido y rodeado de tranquilidad.",
+
+    "firstText": "Cal Masses es un apartamento rural situado en plena naturaleza, rodeado de viñas y campos, a pocos minutos en coche de Manresa. Ha sido renovado con mimo para mantener el carácter original de la casa, añadiendo el confort que esperas en una escapada actual.",
+    "secondText": "El interior combina materiales cálidos, luz natural y una decoración sencilla, evitando el exceso para dejar espacio al descanso. Cada rincón está pensado para que puedas relajarte, leer, cocinar sin prisas o compartir conversaciones largas alrededor de la mesa.",
+    "thirdText": "El apartamento dispone de cocina totalmente equipada, zona de estar, dormitorio confortable y climatización, para que tu estancia sea agradable tanto en verano como en invierno. También cuenta con conexión Wi-Fi para poder teletrabajar o simplemente estar conectado si lo necesitas.",
+    "fourthText": "En el exterior encontrarás zonas de relax y un entorno silencioso, ideal para desconectar del ritmo de la ciudad, observar el cielo estrellado o pasear entre viñas. Un lugar pensado para escapadas tranquilas, en pareja, en familia o con amigos.",
+
+    "highlight1_label": "Capacidad",
+    "highlight1_value": "Hasta 4 personas",
+    "highlight2_label": "Superficie",
+    "highlight2_value": "Aprox. 60 m² interiores",
+    "highlight3_label": "Exterior privado",
+    "highlight3_value": "Terraza, zona de relax y jacuzzi",
+    "highlight4_label": "Ideal para",
+    "highlight4_value": "Parejas, pequeñas familias y escapadas tranquilas"
+  }
 }

@@ -1,30 +1,74 @@
 {
-    "menu": {
-        "main": "Home",
-        "aboutus": "About us",
-        "spaces": "Spaces",
-        "contact": "Contact"
-    },
-    "titles": {
-        "main": "Home",
-        "aboutus": "About us",
-        "spaces": "Our Spaces",
-        "contact": "Contact"
-    },
-    "aboutustexts": {
-        "titleinside": "HEALTH, MEALS, TERRITORY, AND EMOTIONS.",
-        "firstText": "Cal Masses is a farmhouse located in Sant Salvador de Guardiola, in the Bages region, next to the natural park of Montserrat Mountain, near Manresa and within the D.O. Pla de Bages.",
-        "secondText": "Since 2014, we have been practicing organic farming, primarily focusing on ecological vegetable cultivation with local sales. However, due to the drought in recent years, we have shifted towards other crops.",
-        "thirdText": "During the year 2023, we have recovered a portion of the vineyards that were once present on the estate.",
-        "fourthText": "We always work and seek the most sustainable way to cultivate the land, incorporating regenerative agriculture practices."
-    },
-    "maintexts": {
-        "text": "ENJOY AND STOP THE TIME."
-    },
-    "contacto": {
-        "arrival": "How to arrive",
-        "save_contact": "Save contact",
-        "copy_email": "Copy email",
-        "copied": "Copied!"
-    }
+  "maintexts": {
+    "badge": "Rural apartment · QEhome",
+    "title": "Your rural retreat near Manresa",
+    "text": "A peaceful apartment surrounded by nature, designed to disconnect with all the comforts.",
+    "cta_primary": "Check availability",
+    "cta_secondary": "View spaces",
+
+    "quick1": "Up to 4 guests",
+    "quick2": "Outdoor jacuzzi",
+    "quick3": "Free parking",
+
+    "feature1_title": "Natural surroundings",
+    "feature1_text": "Vineyards, silence and starry skies, just a few minutes' drive from Manresa.",
+    "feature2_title": "Modern amenities",
+    "feature2_text": "Wi-Fi, equipped kitchen, climate control and all the details for a comfortable stay.",
+    "feature3_title": "Designed to disconnect",
+    "feature3_text": "Spacious areas, natural light and a simple yet warm decoration."
+  },
+
+  "menu": {
+    "main": "Home",
+    "aboutus": "About us",
+    "spaces": "Spaces",
+    "contact": "Contact",
+    "vinos": "Wines"
+  },
+
+  "titles": {
+    "contact": "Contact"
+  },
+
+  "contacto": {
+    "badge": "Contact & reservations",
+    "intro": "If you have any questions about your stay, availability or how to get here, you can contact us directly.",
+    "arrival": "How to get here",
+    "save_contact": "Save contact",
+    "copied": "Email copied",
+    "copy_email": "Copy email"
+  },
+
+  "vinos": {
+    "badge": "House wines",
+    "title": "SISU — The first wine of Cal Masses",
+    "subtitle": "An honest, unmasked brisat made from Macabeo and Sumoll from Pla de Bages, crafted to share during peaceful getaways at Cal Masses.",
+    "p1": "We present SISU, the first wine of Cal Masses. Made during the 2024 harvest with grapes from old vineyards in our village: Macabeo (80%) and Sumoll (20%).",
+    "p2": "Hand-harvested, destemmed and macerated with its skins for five days. Then pressed and rested for six months in stainless steel. Bottled with minimal sulfites and unfiltered to preserve authenticity.",
+    "p3": "A wine that moves between colors and styles: a very special rosé, almost a 'white rosé'. Its color resembles the reddish sunsets of Pla de Bages.",
+    "p4": "On the nose, notes of orange peel, ripe white fruit and a Mediterranean floral-herbaceous touch. On the palate, it is fresh and vibrant, with the acidity of Macabeo and a light astringency from Sumoll.",
+    "p5": "Ideal to enjoy well chilled with light dishes: salads, pasta, rice, pizza, soft cheeses… or simply on its own or with good company.",
+    "p6": "A small and honest project that speaks of resilience, identity and our landscape. A traditional Bages brisat with a modern approach: minimal intervention and maximum authenticity.",
+    "footer": "Raval del Sellarès — Sant Salvador de Guardiola"
+  },
+
+  "aboutustexts": {
+    "badge": "About the apartment",
+    "titleinside": "A rural apartment cared for down to the detail",
+    "intro": "A space designed to make you feel at home: simple, warm and surrounded by peace.",
+
+    "firstText": "Cal Masses is a rural apartment located in the heart of nature, surrounded by vineyards and fields, just minutes from Manresa. It has been carefully renovated to preserve the original character of the house while adding the comfort expected from a modern retreat.",
+    "secondText": "The interior combines warm materials, natural light and simple decoration, avoiding excess so that rest takes center stage. Every corner is designed for you to relax, read, cook calmly or share long conversations.",
+    "thirdText": "The apartment features a fully equipped kitchen, living area, comfortable bedroom and climate control to ensure a pleasant stay throughout the year. It also includes Wi-Fi to work remotely or stay connected if needed.",
+    "fourthText": "Outside you will find relaxation areas and a peaceful environment, ideal for disconnecting from the city, stargazing or strolling through the vineyards. A place designed for quiet getaways with your partner, family or friends.",
+
+    "highlight1_label": "Capacity",
+    "highlight1_value": "Up to 4 guests",
+    "highlight2_label": "Surface",
+    "highlight2_value": "Approx. 60 m² indoors",
+    "highlight3_label": "Private outdoor area",
+    "highlight3_value": "Terrace, relax area and jacuzzi",
+    "highlight4_label": "Ideal for",
+    "highlight4_value": "Couples, small families and peaceful getaways"
+  }
 }

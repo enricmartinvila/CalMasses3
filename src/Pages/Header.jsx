@@ -3,7 +3,7 @@ import { useI18n } from "../Components/i18nContext";
 
 const ACCENT = "#556B2F";
 
-export default function Header() {
+export default function Header2() {
   const { translations, handleSelectLanguage } = useI18n();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -49,25 +49,34 @@ export default function Header() {
               <a
                 href="#main"
                 className="transition-transform duration-150 hover:scale-105 hover:underline underline-offset-4"
-                style={{ color: ACCENT }}
+                style={{ color: "black" }}
               >
                 {translations.menu.main}
               </a>
             </li>
             <li>
               <a
-                href="#descripcionID"
+                href="#descripcion"
                 className="transition-transform duration-150 hover:scale-105 hover:underline underline-offset-4"
-                style={{ color: ACCENT }}
+                style={{ color: "black" }}
               >
                 {translations.menu.aboutus}
               </a>
             </li>
+             <li>
+              <a
+                href="#vinos"
+                className="transition-transform duration-150 hover:scale-105 hover:underline underline-offset-4"
+                style={{ color: "black" }}
+              >
+                {translations.menu.vinos}
+              </a>
+            </li>
             <li>
               <a
-                href="#espaciosID"
+                href="#espacios"
                 className="transition-transform duration-150 hover:scale-105 hover:underline underline-offset-4"
-                style={{ color: ACCENT }}
+                style={{ color: "black" }}
               >
                 {translations.menu.spaces}
               </a>
@@ -76,7 +85,7 @@ export default function Header() {
               <a
                 href="#contacto"
                 className="transition-transform duration-150 hover:scale-105 hover:underline underline-offset-4"
-                style={{ color: ACCENT }}
+                style={{ color: "black" }}
               >
                 {translations.menu.contact}
               </a>
@@ -118,8 +127,9 @@ export default function Header() {
         <ul className="flex flex-col p-3 text-sm font-semibold">
           {[
             { href: "#main", label: translations.menu.main },
-            { href: "#descripcionID", label: translations.menu.aboutus },
-            { href: "#espaciosID", label: translations.menu.spaces },
+            { href: "#descripcion", label: translations.menu.aboutus },
+            { href: "#espacios", label: translations.menu.spaces },
+            { href: "#vinos", label: translations.menu.vinos },
             { href: "#contacto", label: translations.menu.contact },
           ].map((item) => (
             <li key={item.href}>

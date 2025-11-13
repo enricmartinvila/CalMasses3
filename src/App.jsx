@@ -1,13 +1,15 @@
 import './App.css'
 import './Pages/MainPage'
-import MainPage from './Pages/MainPage'
-import Descripcion from './Pages/Descripcion'
-import Espacios from './Pages/Espacios'
-import Contacto from './Pages/Contacto'
-import Header from './Pages/Header'
+
 import { I18nProvider } from "./Components/i18nContext";
 import { Analytics } from '@vercel/analytics/react'
 import Vinos from './Pages/Vinos'
+import Header2 from './Pages/Header';
+import MainPage from './Pages/MainPage';
+import Descripcion from './Pages/Descripcion';
+import Contacte from './Pages/Contacto';
+// import Espacios from './Pages/Espacios';
+
 
 
 function App() {
@@ -15,12 +17,12 @@ function App() {
   return (
     <>
     <I18nProvider>
-        <Header/>
+        <Header2/>
         <MainPage/>
         <Descripcion/>
         <Vinos/>
         {/* <Espacios/> */}
-        <Contacto/>
+        <Contacte />
         <Analytics />
     </I18nProvider>
 

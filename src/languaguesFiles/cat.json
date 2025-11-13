@@ -1,30 +1,74 @@
 {
-    "menu": {
-        "main": "Inici",
-        "aboutus": "Sobre nosaltres",
-        "spaces": "Espais",
-        "contact": "Contacte"
-    },
-    "titles": {
-        "main": "Inici",
-        "aboutus": "Sobre nosaltres",
-        "spaces": "Espais",
-        "contact": "Contacte"
-    },
-    "aboutustexts": {
-        "titleinside": "SALUT, ALIMENTACIÓ, TERRITORI I EMOCIONS.",
-        "firstText": "Cal Masses és una masia ubicada a Sant Salvador de Guardiola, a la Comarca del Bages, tocant al parc natural de la Muntanya de Montserrat al costat de Manresa i dins la D.O. Pla de Bages.",
-        "secondText": "Des de l’any 2014 s’ha anat fent agricultura ecològica, principalment horta ecològica fent venta de proximitat, però amb la sequera dels darrers anys ens hem anat decantant per altres cultius.",
-        "thirdText": "Durant l’any 2023 hem recuperat una part de les vinyes que hi havia hagut antigament a la finca.",
-        "fourthText": "Treballem i busquem sempre la manera més sostenible de treballar la terra introduint pràctiques d’agricultura regenerativa."
-    },
-    "maintexts": {
-        "text": "GAUDEIX I ATURA EL TEMPS"
-    },
-    "contacto": {
-        "arrival": "Com arribar",
-        "save_contact": "Desar contacte",
-        "copy_email": "Copiar correu",
-        "copied": "¡Copiat!"
-    }
+  "maintexts": {
+    "badge": "Apartament rural · QEhome",
+    "title": "El teu refugi rural a prop de Manresa",
+    "text": "Un apartament tranquil, envoltat de natura, pensat per desconnectar amb totes les comoditats.",
+    "cta_primary": "Consultar disponibilitat",
+    "cta_secondary": "Veure espais",
+
+    "quick1": "Fins a 4 persones",
+    "quick2": "Jacuzzi exterior",
+    "quick3": "Pàrquing gratuït",
+
+    "feature1_title": "Entorn natural",
+    "feature1_text": "Vinyes, silenci i cel estrellat, a pocs minuts amb cotxe de Manresa.",
+    "feature2_title": "Comoditats modernes",
+    "feature2_text": "Wi-Fi, cuina equipada, climatització i tots els detalls per a una estada còmoda.",
+    "feature3_title": "Pensat per desconnectar",
+    "feature3_text": "Espais amplis, llum natural i una decoració senzilla però càlida."
+  },
+
+  "menu": {
+    "main": "Inici",
+    "aboutus": "Sobre nosaltres",
+    "spaces": "Espais",
+    "contact": "Contacte",
+    "vinos": "Vins"
+  },
+
+  "titles": {
+    "contact": "Contacte"
+  },
+
+  "contacto": {
+    "badge": "Contacte i reserves",
+    "intro": "Si tens qualsevol dubte sobre la teva estada, disponibilitat o com arribar, pots contactar directament amb nosaltres.",
+    "arrival": "Com arribar",
+    "save_contact": "Desar contacte",
+    "copied": "Email copiat",
+    "copy_email": "Copiar email"
+  },
+
+  "vinos": {
+    "badge": "Vins de la casa",
+    "title": "SISU — El primer vi de Cal Masses",
+    "subtitle": "Un brisat honest i sense maquillatges, elaborat amb Macabeu i Sumoll del Pla de Bages, pensat per compartir-lo en escapades tranquil·les a Cal Masses.",
+    "p1": "Us presentem el SISU, el primer vi de Cal Masses. Elaborat a la verema del 2024 amb raïm de vinyes velles del nostre poble: Macabeu (80%) i Sumoll (20%).",
+    "p2": "Collit a mà, derrapat i macerat amb les seves pells durant cinc dies. Després premsat i reposat sis mesos en dipòsit d’acer inoxidable. Embotellat amb el mínim de sulfits i sense filtrar, mantenint la seva autenticitat.",
+    "p3": "És un vi que juga entre colors i estils: un rosat molt especial, gairebé un “rosat de blancs”. El seu color recorda els capvespres rogencs del Pla de Bages.",
+    "p4": "Al nas, records de pell de taronja, fruita blanca madura i un toc floral i herbaci mediterrani. En boca és fresc i vibrant, amb l’acidesa del Macabeu i un punt astringent del Sumoll que evoca sabors de tardor.",
+    "p5": "Ideal per gaudir-lo ben fresquet amb plats lleugers: amanides, pastes, arrossos, pizzes, formatges tous… o simplement sol o en bona companyia.",
+    "p6": "És un projecte petit i honest, que parla de resiliència, identitat i del nostre paisatge. Un brisat tradicional del Bages amb una mirada actual: mínima intervenció, sense maquillatges i prioritzant l’autenticitat.",
+    "footer": "Raval del Sellarès — Sant Salvador de Guardiola"
+  },
+
+  "aboutustexts": {
+    "badge": "Sobre l'apartament",
+    "titleinside": "Un apartament rural cuidat al detall",
+    "intro": "Un espai pensat perquè et sentis com a casa: senzill, càlid i envoltat de tranquil·litat.",
+
+    "firstText": "Cal Masses és un apartament rural situat en plena natura, envoltat de vinyes i camps, a pocs minuts en cotxe de Manresa. Ha estat renovat amb cura per mantenir el caràcter original de la casa, afegint el confort que esperes en una escapada actual.",
+    "secondText": "L'interior combina materials càlids, llum natural i una decoració senzilla, evitant l'excés per deixar espai al descans. Cada racó està pensat perquè puguis relaxar-te, llegir, cuinar sense presses o compartir converses llargues al voltant de la taula.",
+    "thirdText": "L'apartament disposa de cuina totalment equipada, zona d'estar, dormitori confortable i climatització, perquè la teva estada sigui agradable tant a l'estiu com a l'hivern. També compta amb connexió Wi-Fi per teletreballar o simplement estar connectat si ho necessites.",
+    "fourthText": "A l'exterior hi trobaràs zones de relax i un entorn silenciós, ideal per desconnectar del ritme de la ciutat, observar el cel estrellat o passejar entre vinyes. Un lloc pensat per a escapades tranquil·les, en parella, en família o amb amics.",
+
+    "highlight1_label": "Capacitat",
+    "highlight1_value": "Fins a 4 persones",
+    "highlight2_label": "Superfície",
+    "highlight2_value": "Aprox. 60 m² interiors",
+    "highlight3_label": "Exterior privat",
+    "highlight3_value": "Terrassa, zona de relax i jacuzzi",
+    "highlight4_label": "Ideal per a",
+    "highlight4_value": "Parelles, petites famílies i escapades tranquil·les"
+  }
 }
