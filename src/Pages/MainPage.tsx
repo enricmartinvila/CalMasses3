@@ -42,10 +42,16 @@ export default function MainPage() {
               </a>
 
               <a
-                href="#espacios"
-                className="inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium border border-[#556B2F] text-[#556B2F] hover:bg-[#556B2F]/10 transition"
+                href="#vinos"
+                className="relative inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium border border-[#556B2F] text-[#556B2F] overflow-hidden transition group"
               >
-                {heroCtaSecondary}
+                {/* Texto encima del vino */}
+                <span className="relative z-10 transition-colors duration-500 group-hover:text-white">
+                  {heroCtaSecondary}
+                </span>
+
+                {/* Capa de vino que se llena en hover */}
+                <span className="absolute inset-0 bg-[#D97B76] transform scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100" />
               </a>
             </div>
 
