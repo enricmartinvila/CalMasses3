@@ -7,6 +7,7 @@ import Contacto from './Pages/Contacto'
 import Header from './Pages/Header'
 import { I18nProvider } from "./Components/i18nContext";
 import { Analytics } from '@vercel/analytics/react'
+import Vinos from './Pages/Vinos'
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Header/>
         <MainPage/>
         <Descripcion/>
-        <Espacios/>
+        <Vinos/>
+        {/* <Espacios/> */}
         <Contacto/>
         <Analytics />
     </I18nProvider>
