@@ -5,7 +5,7 @@ export default function MainPage() {
 
     return (
         <>
-            <div id="main" className="mb-20 sm:pt-10 relative">
+            <div id="main" className="mb-20 relative">
                 <div className="text-center font-bold relative">
                     <h1 className=" hidden">Cal Masses</h1>
                     <div className="w-full relative">

@@ -142,7 +142,8 @@ export default function Espacios() {
   const spaceTranslations = translations.spaces || {};
 
   return (
-    <section id="espaciosID" className="mx-auto max-w-6xl px-4">
+    <section id="espacios" className="mx-auto max-w-6xl px-4">
+      <div id="espacios"/>
       <h1 className="my-16 text-center text-4xl font-bold md:my-24">
         {translations.titles?.spaces || "Espacios"}
       </h1>
