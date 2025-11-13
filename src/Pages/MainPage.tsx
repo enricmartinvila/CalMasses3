@@ -51,7 +51,7 @@ export default function MainPage() {
                 </span>
 
                 {/* Capa de vino que se llena en hover */}
-                <span className="absolute inset-0 bg-[#D97B76] transform scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100" />
+                <span className="absolute inset-0 bg-[#d84b44] transform scale-x-0 origin-left transition-transform duration-500 ease-out group-hover:scale-x-100" />
               </a>
             </div>
 
