@@ -15,10 +15,10 @@ export default function Header2() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const handleChange = (e) => handleSelectLanguage(e.target.value);
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) =>
+    handleSelectLanguage(e.target.value);
   const toggleMenu = () => setIsMenuOpen((v) => !v);
 
-  // Tipografías más contenidas y que reducen al contraerse
   const navTextClass = scrolled
     ? "text-sm sm:text-base lg:text-lg"
     : "text-base sm:text-lg lg:text-xl";
@@ -44,7 +44,9 @@ export default function Header2() {
 
         {/* Nav desktop */}
         <nav className="mx-auto hidden md:block">
-          <ul className={`flex items-center gap-6 2xl:gap-12 font-semibold ${navTextClass}`}>
+          <ul
+            className={`flex items-center gap-6 2xl:gap-12 font-semibold ${navTextClass}`}
+          >
             <li>
               <a
                 href="#main"
@@ -63,7 +65,7 @@ export default function Header2() {
                 {translations.menu.aboutus}
               </a>
             </li>
-             <li>
+            <li>
               <a
                 href="#vinos"
                 className="transition-transform duration-150 hover:scale-105 hover:underline underline-offset-4"
@@ -94,20 +96,42 @@ export default function Header2() {
         </nav>
 
         {/* Selector idioma + hamburguesa */}
-        <div className="ml-auto flex items-center mr-2 sm:mr-4">
-          <select
-            className="bg-transparent text-sm sm:text-base font-bold rounded-lg py-1 px-2 border-2 shadow-sm cursor-pointer"
-            style={{ color: ACCENT, borderColor: ACCENT }}
-            onChange={handleChange}
-            aria-label="Seleccionar idioma"
-          >
-            <option value="cat">Català</option>
-            <option value="es">Español</option>
-            <option value="en">English</option>
-          </select>
+        <div className="ml-auto flex items-center mr-2 sm:mr-4 gap-3">
+          {/* Wrapper para el select con flecha custom */}
+          <div className="relative">
+            <select
+              className="appearance-none bg-transparent text-sm sm:text-base font-bold rounded-lg py-1 pl-3 pr-8 border-2 shadow-sm cursor-pointer"
+              style={{ color: ACCENT, borderColor: ACCENT }}
+              onChange={handleChange}
+              aria-label="Seleccionar idioma"
+            >
+              <option value="cat">Català</option>
+              <option value="es">Español</option>
+              <option value="en">English</option>
+            </select>
+
+            {/* Flechita custom separada del borde */}
+            <span className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
+              <svg
+                className="h-3 w-3"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ color: ACCENT }}
+              >
+                <path
+                  d="M4 6L8 10L12 6"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
 
           <button
-            className="md:hidden ml-3 text-2xl leading-none focus:outline-none"
+            className="md:hidden text-2xl leading-none focus:outline-none"
             style={{ color: ACCENT }}
             aria-label={isMenuOpen ? "Cerrar menú" : "Abrir menú"}
             onClick={toggleMenu}
@@ -117,7 +141,7 @@ export default function Header2() {
         </div>
       </div>
 
-      {/* Menú móvil simple, tipografía pequeña */}
+      {/* Menú móvil */}
       <div
         className={[
           "md:hidden overflow-hidden transition-[max-height] duration-200 ease-out bg-white border-t border-gray-200",
