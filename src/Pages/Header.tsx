@@ -4,7 +4,7 @@ import { useI18n } from "../Components/i18nContext";
 const ACCENT = "#556B2F";
 
 export default function Header2() {
-  const { translations, handleSelectLanguage } = useI18n();
+  const { translations, handleSelectLanguage, currLang } = useI18n();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -102,6 +102,7 @@ export default function Header2() {
             <select
               className="appearance-none bg-transparent text-sm sm:text-base font-bold rounded-lg py-1 pl-3 pr-8 border-2 shadow-sm cursor-pointer"
               style={{ color: ACCENT, borderColor: ACCENT }}
+              value={currLang}
               onChange={handleChange}
               aria-label="Seleccionar idioma"
             >
