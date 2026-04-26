@@ -18,8 +18,8 @@ function App() {
     <>
     <I18nProvider>
         <Header2/>
-        <MainPage/>
-        <Descripcion/>
+        {/* <MainPage/> */}
+        {/* <Descripcion/> */}
         <Vinos/>
         {/* <Espacios/> */}
         <Contacte />
